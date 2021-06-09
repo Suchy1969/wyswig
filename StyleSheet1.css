@@ -1,0 +1,29 @@
+﻿body,html {
+    width:100%;
+    height:100%;
+
+}
+.main{
+    width:80%;
+    height:90%;
+    border: 5px solid black;
+    border-radius: 15px;
+    margin: auto;
+}
+.baner {
+    height: 10%;
+    width: auto;
+    border: 5px solid black;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.logo {
+    height: 95%;
+    width: 15%;
+    float: left;
+    border: 5px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
