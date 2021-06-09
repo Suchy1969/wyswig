@@ -1,29 +1,82 @@
-﻿body,html {
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    color:white;
+}
+
+.tlo {
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: block;
+    background-image: url(pexels-designecologist-1779487.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+}
+
+.zawartosc {
+    position: fixed;
+    left: 0;
+    right: 0;
     width:100%;
     height:100%;
+   
+}
+
+.baner {
+    width: 100%;
+    height: 7%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: white;
+    font-weight: 700;
+    text-decoration: overline solid rgb(255, 255, 255);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+h1 {
+    font-size: 40px;
+}
+.informacje {
+    height: 20%;
+    width: 90%;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 15px;
+    border: 5px black solid;
+margin-left:auto;
+margin-right:auto;
+margin-top:20px;
+
 
 }
-.main{
-    width:80%;
-    height:90%;
-    border: 5px solid black;
-    border-radius: 15px;
+.zdj {
     margin: auto;
+    height: 35vh;
+    width: 35vh;
+    display: flex;
+    justify-content: space-evenly;
 }
-.baner {
-    height: 10%;
-    width: auto;
-    border: 5px solid black;
-    border-radius: 15px;
+.polecenie {
+    width: 80%;
+    height: 50%;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-}
-.logo {
-    height: 95%;
-    width: 15%;
-    float: left;
-    border: 5px solid black;
     border-radius: 15px;
-    text-align: center;
+    border: 5px black solid;
+  
+}
+h3{
+    text-align:center;
+    font-size:30px;
 }
